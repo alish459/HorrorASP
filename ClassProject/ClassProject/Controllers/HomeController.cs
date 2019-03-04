@@ -13,5 +13,9 @@ namespace ClassProject.Controllers
         {
             return View();
         }
+        public ActionResult OurMenus()
+        {
+            return View();
+        }
     }
 }
