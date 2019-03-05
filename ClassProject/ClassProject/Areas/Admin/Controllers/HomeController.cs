@@ -13,5 +13,13 @@ namespace ClassProject.Areas.Admin.Controllers
         {
             return View();
         }
+        public ActionResult UserProfile()
+        {
+            return View();
+        }
+        public ActionResult TableList()
+        {
+            return View();
+        }
     }
 }
