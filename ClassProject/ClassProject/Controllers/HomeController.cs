@@ -17,5 +17,13 @@ namespace ClassProject.Controllers
         {
             return View();
         }
+        public ActionResult Blog()
+        {
+            return View();
+        }
+        public ActionResult Contact()
+        {
+            return View();
+        }
     }
 }
