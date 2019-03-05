@@ -13,14 +13,17 @@ namespace ClassProject.Controllers
         {
             return View();
         }
+        [Route("منوي-ما")]
         public ActionResult OurMenus()
         {
             return View();
         }
-        public ActionResult Blog()
+        [Route("اخبار")]
+        public ActionResult Blog() 
         {
             return View();
         }
+        [Route("تماس")]
         public ActionResult Contact()
         {
             return View();
