@@ -21,5 +21,25 @@ namespace ClassProject.Areas.Admin.Controllers
         {
             return View();
         }
+        public ActionResult Typography()
+        {
+            return View();
+        }
+        public ActionResult Icons()
+        {
+            return View();
+        }
+        public ActionResult Maps()
+        {
+            return View();
+        }
+        public ActionResult Notifications()
+        {
+            return View();
+        }
+        public ActionResult Upgrade()
+        {
+            return View();
+        }
     }
 }

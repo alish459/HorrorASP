@@ -90,14 +90,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Areas\Admin\documentation\tutorial-components.html" />
-    <Content Include="Areas\Admin\icons.html" />
-    <Content Include="Areas\Admin\maps.html" />
-    <Content Include="Areas\Admin\notifications.html" />
-    <Content Include="Areas\Admin\table.html" />
-    <Content Include="Areas\Admin\template.html" />
-    <Content Include="Areas\Admin\typography.html" />
     <Content Include="Areas\Admin\upgrade.html" />
-    <Content Include="Areas\Admin\user.html" />
     <Content Include="Content\AdminContent\animate.min.css" />
     <Content Include="Content\AdminContent\bootstrap.min.css" />
     <Content Include="Content\AdminContent\demo.css" />
@@ -228,6 +221,11 @@
     <Content Include="Areas\Admin\Views\Home\Dashboard.cshtml" />
     <Content Include="Areas\Admin\Views\Home\UserProfile.cshtml" />
     <Content Include="Areas\Admin\Views\Home\TableList.cshtml" />
+    <Content Include="Areas\Admin\Views\Home\Typography.cshtml" />
+    <Content Include="Areas\Admin\Views\Home\Icons.cshtml" />
+    <Content Include="Areas\Admin\Views\Home\Maps.cshtml" />
+    <Content Include="Areas\Admin\Views\Home\Notifications.cshtml" />
+    <Content Include="Areas\Admin\Views\Home\Upgrade.cshtml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
