@@ -13,6 +13,12 @@ namespace ClassProject
         {
             routes.MapMvcAttributeRoutes();
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
+            routes.MapRoute(
+               name: "Admin",
+               url: "Admin/{controller}/{action}/{id}",
+               defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional },
+               namespaces: new[] { "ClassProject.Controllers" }
+           );
 
             routes.MapRoute(
                 name: "Default",
