@@ -146,6 +146,7 @@
     <Content Include="Content\fonts\flexslider-icon.eot" />
     <Content Include="Content\fonts\flexslider-icon.ttf" />
     <Content Include="Content\fonts\flexslider-icon.woff" />
+    <Content Include="Areas\Admin\Views\web.config" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -161,6 +162,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -186,6 +188,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Areas\Admin\Controllers\" />
+    <Folder Include="Areas\Admin\Models\" />
+    <Folder Include="Areas\Admin\Views\Shared\" />
     <Folder Include="Content\AdminContent\" />
     <Folder Include="Models\" />
     <Folder Include="Scripts\AdminScripts\" />
