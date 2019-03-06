@@ -89,7 +89,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="contact.html" />
+    <Content Include="Areas\Admin\documentation\tutorial-components.html" />
+    <Content Include="Areas\Admin\upgrade.html" />
+    <Content Include="Content\AdminContent\animate.min.css" />
+    <Content Include="Content\AdminContent\bootstrap.min.css" />
+    <Content Include="Content\AdminContent\demo.css" />
+    <Content Include="Content\AdminContent\documentation.css" />
+    <Content Include="Content\AdminContent\light-bootstrap-dashboard.css" />
+    <Content Include="Content\AdminContent\pe-icon-7-stroke.css" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -100,9 +107,31 @@
     <Content Include="Content\owl-carousel.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\templatemo-style.css" />
+    <Content Include="fonts\AdminFonts\Pe-icon-7-stroke.svg" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="Images\AdminImages\default-avatar.png" />
+    <Content Include="Images\AdminImages\faces\face-0.jpg" />
+    <Content Include="Images\AdminImages\faces\face-1.jpg" />
+    <Content Include="Images\AdminImages\faces\face-2.jpg" />
+    <Content Include="Images\AdminImages\faces\face-3.jpg" />
+    <Content Include="Images\AdminImages\faces\face-4.jpg" />
+    <Content Include="Images\AdminImages\faces\face-5.jpg" />
+    <Content Include="Images\AdminImages\faces\face-6.jpg" />
+    <Content Include="Images\AdminImages\faces\face-7.jpg" />
+    <Content Include="Images\AdminImages\faces\tim_vector.jpe" />
+    <Content Include="Images\AdminImages\favicon.ico" />
+    <Content Include="Images\AdminImages\full-screen-image-3.jpg" />
+    <Content Include="Images\AdminImages\loading-bubbles.svg" />
+    <Content Include="Images\AdminImages\mask.png" />
+    <Content Include="Images\AdminImages\new_logo.png" />
+    <Content Include="Images\AdminImages\sidebar-1.jpg" />
+    <Content Include="Images\AdminImages\sidebar-2.jpg" />
+    <Content Include="Images\AdminImages\sidebar-3.jpg" />
+    <Content Include="Images\AdminImages\sidebar-4.jpg" />
+    <Content Include="Images\AdminImages\sidebar-5.jpg" />
+    <Content Include="Images\AdminImages\tim_80x80.png" />
     <Content Include="Images\banner-bg.jpg" />
     <Content Include="Images\blog_item_01.jpg" />
     <Content Include="Images\blog_item_02.jpg" />
@@ -132,7 +161,13 @@
     <Content Include="Images\next.png" />
     <Content Include="Images\prev.png" />
     <Content Include="Images\signup-bg.jpg" />
-    <Content Include="menu.html" />
+    <Content Include="Scripts\AdminScripts\bootstrap-notify.js" />
+    <Content Include="Scripts\AdminScripts\bootstrap-select.js" />
+    <Content Include="Scripts\AdminScripts\bootstrap.min.js" />
+    <Content Include="Scripts\AdminScripts\chartist.min.js" />
+    <Content Include="Scripts\AdminScripts\demo.js" />
+    <Content Include="Scripts\AdminScripts\jquery.3.2.1.min.js" />
+    <Content Include="Scripts\AdminScripts\light-bootstrap-dashboard.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="fonts\fontawesome-webfont.eot" />
@@ -148,6 +183,49 @@
     <Content Include="Content\fonts\flexslider-icon.eot" />
     <Content Include="Content\fonts\flexslider-icon.ttf" />
     <Content Include="Content\fonts\flexslider-icon.woff" />
+    <Content Include="Areas\Admin\Views\web.config" />
+    <Content Include="Areas\Admin\assets\sass\lbd\mixins\_buttons.scss" />
+    <Content Include="Areas\Admin\assets\sass\lbd\mixins\_cards.scss" />
+    <Content Include="Areas\Admin\assets\sass\lbd\mixins\_chartist.scss" />
+    <Content Include="Areas\Admin\assets\sass\lbd\mixins\_icons.scss" />
+    <Content Include="Areas\Admin\assets\sass\lbd\mixins\_inputs.scss" />
+    <Content Include="Areas\Admin\assets\sass\lbd\mixins\_labels.scss" />
+    <Content Include="Areas\Admin\assets\sass\lbd\mixins\_morphing-buttons.scss" />
+    <Content Include="Areas\Admin\assets\sass\lbd\mixins\_navbars.scss" />
+    <Content Include="Areas\Admin\assets\sass\lbd\mixins\_social-buttons.scss" />
+    <Content Include="Areas\Admin\assets\sass\lbd\mixins\_tabs.scss" />
+    <Content Include="Areas\Admin\assets\sass\lbd\mixins\_transparency.scss" />
+    <Content Include="Areas\Admin\assets\sass\lbd\mixins\_vendor-prefixes.scss" />
+    <Content Include="Areas\Admin\assets\sass\lbd\_alerts.scss" />
+    <Content Include="Areas\Admin\assets\sass\lbd\_buttons.scss" />
+    <Content Include="Areas\Admin\assets\sass\lbd\_cards.scss" />
+    <Content Include="Areas\Admin\assets\sass\lbd\_chartist.scss" />
+    <Content Include="Areas\Admin\assets\sass\lbd\_checkbox-radio-switch.scss" />
+    <Content Include="Areas\Admin\assets\sass\lbd\_dropdown.scss" />
+    <Content Include="Areas\Admin\assets\sass\lbd\_footers.scss" />
+    <Content Include="Areas\Admin\assets\sass\lbd\_inputs.scss" />
+    <Content Include="Areas\Admin\assets\sass\lbd\_misc.scss" />
+    <Content Include="Areas\Admin\assets\sass\lbd\_mixins.scss" />
+    <Content Include="Areas\Admin\assets\sass\lbd\_navbars.scss" />
+    <Content Include="Areas\Admin\assets\sass\lbd\_responsive.scss" />
+    <Content Include="Areas\Admin\assets\sass\lbd\_sidebar-and-main-panel.scss" />
+    <Content Include="Areas\Admin\assets\sass\lbd\_tables.scss" />
+    <Content Include="Areas\Admin\assets\sass\lbd\_typography.scss" />
+    <Content Include="Areas\Admin\assets\sass\lbd\_variables.scss" />
+    <Content Include="Areas\Admin\assets\sass\light-bootstrap-dashboard.scss" />
+    <Content Include="fonts\AdminFonts\Pe-icon-7-stroke.eot" />
+    <Content Include="fonts\AdminFonts\Pe-icon-7-stroke.ttf" />
+    <Content Include="fonts\AdminFonts\Pe-icon-7-stroke.woff" />
+    <Content Include="Areas\Admin\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\Admin\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\Admin\Views\Home\Dashboard.cshtml" />
+    <Content Include="Areas\Admin\Views\Home\UserProfile.cshtml" />
+    <Content Include="Areas\Admin\Views\Home\TableList.cshtml" />
+    <Content Include="Areas\Admin\Views\Home\Typography.cshtml" />
+    <Content Include="Areas\Admin\Views\Home\Icons.cshtml" />
+    <Content Include="Areas\Admin\Views\Home\Maps.cshtml" />
+    <Content Include="Areas\Admin\Views\Home\Notifications.cshtml" />
+    <Content Include="Areas\Admin\Views\Home\Upgrade.cshtml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -163,6 +241,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
+    <Compile Include="Areas\Admin\Controllers\HomeController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -188,9 +268,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Content\AdminContent\" />
+    <Folder Include="Areas\Admin\Models\" />
     <Folder Include="Models\" />
-    <Folder Include="Scripts\AdminScripts\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
