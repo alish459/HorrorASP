@@ -1,0 +1,15 @@
+E:\sharafzade\Film\ASP.Net\HorrorASP\ClassProject\MVC.Connecntion\bin\Debug\MVC.Connecntion.dll.config
+E:\sharafzade\Film\ASP.Net\HorrorASP\ClassProject\MVC.Connecntion\bin\Debug\MVC.Connecntion.dll
+E:\sharafzade\Film\ASP.Net\HorrorASP\ClassProject\MVC.Connecntion\bin\Debug\MVC.Connecntion.pdb
+E:\sharafzade\Film\ASP.Net\HorrorASP\ClassProject\MVC.Connecntion\bin\Debug\EntityFramework.dll
+E:\sharafzade\Film\ASP.Net\HorrorASP\ClassProject\MVC.Connecntion\bin\Debug\EntityFramework.SqlServer.dll
+E:\sharafzade\Film\ASP.Net\HorrorASP\ClassProject\MVC.Connecntion\bin\Debug\EntityFramework.xml
+E:\sharafzade\Film\ASP.Net\HorrorASP\ClassProject\MVC.Connecntion\bin\Debug\EntityFramework.SqlServer.xml
+E:\sharafzade\Film\ASP.Net\HorrorASP\ClassProject\MVC.Connecntion\obj\Debug\MVC.Connecntion.Properties.Resources.resources
+E:\sharafzade\Film\ASP.Net\HorrorASP\ClassProject\MVC.Connecntion\obj\Debug\MVC.Connecntion.csproj.GenerateResource.cache
+E:\sharafzade\Film\ASP.Net\HorrorASP\ClassProject\MVC.Connecntion\obj\Debug\MVC.Connecntion.csproj.CoreCompileInputs.cache
+E:\sharafzade\Film\ASP.Net\HorrorASP\ClassProject\MVC.Connecntion\obj\Debug\MVC.Connecntion.csproj.CopyComplete
+E:\sharafzade\Film\ASP.Net\HorrorASP\ClassProject\MVC.Connecntion\obj\Debug\MVC.Connecntion.dll
+E:\sharafzade\Film\ASP.Net\HorrorASP\ClassProject\MVC.Connecntion\obj\Debug\MVC.Connecntion.pdb
+E:\sharafzade\Film\ASP.Net\HorrorASP\ClassProject\MVC.Connecntion\obj\Debug\MVC.Connecntion.csprojResolveAssemblyReference.cache
+E:\sharafzade\Film\ASP.Net\HorrorASP\ClassProject\MVC.Connecntion\obj\Debug\MVC.Connecntion.Migrations.PersiainMigration.resources
