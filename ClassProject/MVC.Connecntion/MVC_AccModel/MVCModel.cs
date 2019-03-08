@@ -18,5 +18,6 @@ namespace MVC.Connecntion.MVC_AccModel
         }
         public virtual DbSet<MVC.Connecntion.Table.Pages> AllPages { get; set; }
         public virtual DbSet<MVC.Connecntion.Table.AllImages> AllImages { get; set; }
+        public virtual DbSet<MVC.Connecntion.Table.AllText> AllTexts { get; set; }
     }
 }

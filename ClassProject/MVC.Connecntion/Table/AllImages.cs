@@ -10,10 +10,19 @@ namespace MVC.Connecntion.Table
 {
     public class AllImages
     {
+        public AllImages()
+        {
+
+        }
         [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int ImageID { get; set; }
         [StringLength(200)]
         public string ImageUrl { get; set; }
-        public int BlogID { get; set; }
+        public int? PageID { get; set; }
+        [ForeignKey("PageID")]
+        public Pages Pages { get; set; }
+
+        public ICollection<AllText> AllTexts { get; set; }
+         
     }
 }

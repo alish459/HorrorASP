@@ -65,6 +65,7 @@
     <Compile Include="MVC_AccModel\MVCModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Table\AllImages.cs" />
+    <Compile Include="Table\AllText.cs" />
     <Compile Include="Table\Pages.cs" />
     <EmbeddedResource Include="Migrations\201903071020261_PersiainMigration.resx">
       <DependentUpon>201903071020261_PersiainMigration.cs</DependentUpon>
