@@ -20,7 +20,6 @@ D:\ClassProject\HorrorASP\ClassProject\MVC.Connecntion\bin\Release\EntityFramewo
 D:\ClassProject\HorrorASP\ClassProject\MVC.Connecntion\bin\Release\EntityFramework.SqlServer.dll
 D:\ClassProject\HorrorASP\ClassProject\MVC.Connecntion\bin\Release\EntityFramework.xml
 D:\ClassProject\HorrorASP\ClassProject\MVC.Connecntion\bin\Release\EntityFramework.SqlServer.xml
-D:\ClassProject\HorrorASP\ClassProject\MVC.Connecntion\obj\Release\MVC.Connecntion.csprojResolveAssemblyReference.cache
 D:\ClassProject\HorrorASP\ClassProject\MVC.Connecntion\obj\Release\MVC.Connecntion.Migrations.PersiainMigration.resources
 D:\ClassProject\HorrorASP\ClassProject\MVC.Connecntion\obj\Release\MVC.Connecntion.Properties.Resources.resources
 D:\ClassProject\HorrorASP\ClassProject\MVC.Connecntion\obj\Release\MVC.Connecntion.csproj.GenerateResource.Cache

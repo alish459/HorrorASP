@@ -17,7 +17,7 @@ namespace MVC.Connecntion.Table
         public int TextID { get; set; }
         public string TextExplain { get; set; }
         public int PageID { get; set; }
-        public int ImageID { get; set; }
+        public int? ImageID { get; set; }
         [ForeignKey("PageID")]
         public Pages Pages { get; set; }
         [ForeignKey("ImageID")]

@@ -57,6 +57,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CrudService\AllImageService.cs" />
+    <Compile Include="CrudService\AllTextService.cs" />
+    <Compile Include="CrudService\IRule.cs" />
+    <Compile Include="CrudService\PageService.cs" />
     <Compile Include="Migrations\201903071020261_PersiainMigration.cs" />
     <Compile Include="Migrations\201903071020261_PersiainMigration.Designer.cs">
       <DependentUpon>201903071020261_PersiainMigration.cs</DependentUpon>
