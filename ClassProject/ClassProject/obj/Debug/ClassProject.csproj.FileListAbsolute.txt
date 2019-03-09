@@ -76,6 +76,12 @@ E:\sharafzade\Film\ASP.Net\HorrorASP\ClassProject\ClassProject\obj\Debug\ClassPr
 E:\sharafzade\Film\ASP.Net\HorrorASP\ClassProject\ClassProject\obj\Debug\ClassProject.csproj.CopyComplete
 E:\sharafzade\Film\ASP.Net\HorrorASP\ClassProject\ClassProject\obj\Debug\ClassProject.dll
 E:\sharafzade\Film\ASP.Net\HorrorASP\ClassProject\ClassProject\obj\Debug\ClassProject.pdb
+D:\ClassProject\HorrorASP\ClassProject\ClassProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\ClassProject\HorrorASP\ClassProject\ClassProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\ClassProject\HorrorASP\ClassProject\ClassProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\ClassProject\HorrorASP\ClassProject\ClassProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\ClassProject\HorrorASP\ClassProject\ClassProject\bin\roslyn\System.IO.Compression.dll
+D:\ClassProject\HorrorASP\ClassProject\ClassProject\bin\roslyn\VBCSCompiler.exe
 D:\ClassProject\HorrorASP\ClassProject\ClassProject\bin\ClassProject.dll.config
 D:\ClassProject\HorrorASP\ClassProject\ClassProject\bin\ClassProject.dll
 D:\ClassProject\HorrorASP\ClassProject\ClassProject\bin\ClassProject.pdb
@@ -86,13 +92,9 @@ D:\ClassProject\HorrorASP\ClassProject\ClassProject\bin\roslyn\csi.exe
 D:\ClassProject\HorrorASP\ClassProject\ClassProject\bin\roslyn\csi.exe.config
 D:\ClassProject\HorrorASP\ClassProject\ClassProject\bin\roslyn\csi.rsp
 D:\ClassProject\HorrorASP\ClassProject\ClassProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-D:\ClassProject\HorrorASP\ClassProject\ClassProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
 D:\ClassProject\HorrorASP\ClassProject\ClassProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-D:\ClassProject\HorrorASP\ClassProject\ClassProject\bin\roslyn\Microsoft.CodeAnalysis.dll
 D:\ClassProject\HorrorASP\ClassProject\ClassProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-D:\ClassProject\HorrorASP\ClassProject\ClassProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
 D:\ClassProject\HorrorASP\ClassProject\ClassProject\bin\roslyn\Microsoft.CSharp.Core.targets
-D:\ClassProject\HorrorASP\ClassProject\ClassProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
 D:\ClassProject\HorrorASP\ClassProject\ClassProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
 D:\ClassProject\HorrorASP\ClassProject\ClassProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
 D:\ClassProject\HorrorASP\ClassProject\ClassProject\bin\roslyn\Microsoft.Win32.Primitives.dll
@@ -102,7 +104,6 @@ D:\ClassProject\HorrorASP\ClassProject\ClassProject\bin\roslyn\System.Console.dl
 D:\ClassProject\HorrorASP\ClassProject\ClassProject\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
 D:\ClassProject\HorrorASP\ClassProject\ClassProject\bin\roslyn\System.Diagnostics.Process.dll
 D:\ClassProject\HorrorASP\ClassProject\ClassProject\bin\roslyn\System.Diagnostics.StackTrace.dll
-D:\ClassProject\HorrorASP\ClassProject\ClassProject\bin\roslyn\System.IO.Compression.dll
 D:\ClassProject\HorrorASP\ClassProject\ClassProject\bin\roslyn\System.IO.FileSystem.dll
 D:\ClassProject\HorrorASP\ClassProject\ClassProject\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
 D:\ClassProject\HorrorASP\ClassProject\ClassProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
@@ -125,7 +126,6 @@ D:\ClassProject\HorrorASP\ClassProject\ClassProject\bin\roslyn\System.Xml.XPath.
 D:\ClassProject\HorrorASP\ClassProject\ClassProject\bin\roslyn\vbc.exe
 D:\ClassProject\HorrorASP\ClassProject\ClassProject\bin\roslyn\vbc.exe.config
 D:\ClassProject\HorrorASP\ClassProject\ClassProject\bin\roslyn\vbc.rsp
-D:\ClassProject\HorrorASP\ClassProject\ClassProject\bin\roslyn\VBCSCompiler.exe
 D:\ClassProject\HorrorASP\ClassProject\ClassProject\bin\roslyn\VBCSCompiler.exe.config
 D:\ClassProject\HorrorASP\ClassProject\ClassProject\bin\EntityFramework.dll
 D:\ClassProject\HorrorASP\ClassProject\ClassProject\bin\EntityFramework.SqlServer.dll

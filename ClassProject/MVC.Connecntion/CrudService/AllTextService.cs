@@ -58,7 +58,7 @@ namespace MVC.Connecntion.CrudService
         {
             using (var context = new Connecntion.MVC_AccModel.MVCModel())
             {
-                return context.AllTexts.ToList();
+                return context.AllTexts.Include("AllImages").ToList();
             }
         }
         public object Read(int ID)

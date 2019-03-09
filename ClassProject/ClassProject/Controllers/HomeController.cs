@@ -11,7 +11,7 @@ namespace ClassProject.Controllers
         // GET: Home
         public ActionResult Index()
         {
-            return View();
+            return View(model: (List<MVC.Connecntion.Table.AllText>)(new MVC.Connecntion.CrudService.AllTextService().Read()));
         }
         [Route("منوي-ما")]
         public ActionResult OurMenus()
@@ -19,7 +19,7 @@ namespace ClassProject.Controllers
             return View();
         }
         [Route("اخبار")]
-        public ActionResult Blog() 
+        public ActionResult Blog()
         {
             return View();
         }

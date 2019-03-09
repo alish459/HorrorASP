@@ -1,4 +1,4 @@
-﻿
+﻿@model List<MVC.Connecntion.Table.AllText>
 @{
     ViewBag.Title = "خانه";
 }
@@ -201,39 +201,20 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-4">
-                <div class="food-item">
-                    <h2>Breakfast</h2>
-                    <img src="~/Images//breakfast_item.jpg" alt="">
-                    <div class="price">$4.50</div>
-                    <div class="text-content">
-                        <h4>Kale Chips Art Party</h4>
-                        <p>Dreamcatcher squid ennui cliche chicharros nes echo  small batch jean shorts hexagon street art knausgaard wolf...</p>
+            @foreach (MVC.Connecntion.Table.AllText item in Model.Where(a=>a.PageID==1).ToList())
+            {
+                <div class="col-md-4">
+                    <div class="food-item">
+                        <h2>@item.H1Text</h2>
+                        <img src="~/Images//@item.AllImages.ImageUrl" alt=""> 
+                        <div class="price">$@item.Price.ToString("0.##")</div>
+                        <div class="text-content">
+                            <h4>@item.H2Text</h4>
+                            <p>@item.TextExplain...</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-4">
-                <div class="food-item">
-                    <h2>Lunch</h2>
-                    <img src="~/Images//lunch_item.jpg" alt="">
-                    <div class="price">$7.50</div>
-                    <div class="text-content">
-                        <h4>Taiyaki Gastro Tousled</h4>
-                        <p>Dreamcatcher squid ennui cliche chicharros nes echo  small batch jean shorts hexagon street art knausgaard wolf...</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="food-item">
-                    <h2>Dinner</h2>
-                    <img src="~/Images//dinner_item.jpg" alt="">
-                    <div class="price">$12.50</div>
-                    <div class="text-content">
-                        <h4>Batch Squid Jean Shorts</h4>
-                        <p>Dreamcatcher squid ennui cliche chicharros nes echo  small batch jean shorts hexagon street art knausgaard wolf...</p>
-                    </div>
-                </div>
-            </div>
+            }
         </div>
     </div>
 </section>
