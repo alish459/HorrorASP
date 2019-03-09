@@ -10,11 +10,15 @@ namespace MVC.Connecntion.Table
 {
     public class Pages
     {
+        public Pages()
+        {
+        }
         [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int PageID { get; set; }
         [StringLength(100)]
         public string PageName { get; set; }
         public bool IsAdmin { get; set; }
-        public decimal Price { get; set; }
+        public ICollection<AllText> AllTexts { get; set; }
+        //public ICollection<AllImages> AllImages { get; set; }
     }
 }
