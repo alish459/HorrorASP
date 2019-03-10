@@ -11,7 +11,7 @@ namespace ClassProject.Areas.Admin.Controllers
         // GET: Admin/Home
         public ActionResult Dashboard()
         {
-            return View();
+            return View(model: (List<MVC.Connecntion.Table.AllText>)(new MVC.Connecntion.CrudService.AllTextService().Read()));
         }
         public ActionResult UserProfile()
         {

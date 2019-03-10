@@ -14,20 +14,16 @@ namespace MVC.Connecntion.Table
         {
         }
         [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        [Column(Order = 0)]
         public int TextID { get; set; }
-        [Column(Order = 1)]
         public string H1Text { get; set; }
-        [Column(Order = 2)]
         public string H2Text { get; set; }
-        [Column(Order = 3)]
         public string TextExplain { get; set; }
-        [Column(Order = 4)]
         public int PageID { get; set; }
-        [Column(Order = 5)]
         public int? ImageID { get; set; }
-        [Column(Order = 6)]
         public decimal Price { get; set; }
+        public string Author { get; set; }
+        public string PublishedDate { get; set; }
+        public int VisitCount  { get; set; }
         [ForeignKey("PageID")]
         public Pages Pages { get; set; }
         [ForeignKey("ImageID")]
